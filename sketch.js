@@ -72,29 +72,29 @@ function setup() {
   
   leftButton = createButton('Move Left');
   leftButton.style('background-color', color(150, 150, 150, 255));
-  leftButton.mousePressed(moveLeft);
-  leftButton.mouseReleased(stopMoveLeft);
+  leftButton.touchStarted(moveLeft);
+  leftButton.touchEnded(stopMoveLeft);
   leftButton.position(cnvx - 98, cnvy);
   leftButton.size(100, 600);
 
   rightButton = createButton('Move Right');
   rightButton.style('background-color', color(150, 150, 150, 255));
-  rightButton.mousePressed(moveRight);
-  rightButton.mouseReleased(stopMoveRight);
+  rightButton.touchStarted(moveRight);
+  rightButton.touchEnded(stopMoveRight);
   rightButton.position(cnvx + 540, cnvy);
   rightButton.size(100, 600);
 
   upButton = createButton('Move Up');
   upButton.style('background-color', color(150, 150, 150, 255));
-  upButton.mousePressed(moveUp);
-  upButton.mouseReleased(stopMoveUp);
+  upButton.touchStarted(moveUp);
+  upButton.touchEnded(stopMoveUp);
   upButton.position(cnvx - 100, cnvy - 98);
   upButton.size(740, 100);
 
   downButton = createButton('Move Down');
   downButton.style('background-color', color(150, 150, 150, 255));
-  downButton.mousePressed(moveDown);
-  downButton.mouseReleased(stopMoveDown);
+  downButton.touchStarted(moveDown);
+  downButton.touchEnded(stopMoveDown);
   downButton.position(cnvx - 100, cnvy + 600);
   downButton.size(740, 100);
 
