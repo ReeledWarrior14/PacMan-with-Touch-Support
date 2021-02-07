@@ -4,7 +4,7 @@ I have created my own Pacman game! I used a [useful video](https://www.youtube.c
 
 ### Here is the link to play the game!
 [The game without Touch Support!](https://reeledwarrior14.github.io/PacMan/)
-And here is [the new version with Touch Support](https://reeledwarrior14.github.io/PacMan-with-Touch-Support/)
+And here is [the new version with Touch Support!](https://reeledwarrior14.github.io/PacMan-with-Touch-Support/)
 
 ## Now with Touch Support!
 Play on any mobile device! 
