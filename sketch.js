@@ -74,6 +74,7 @@ function setup() {
   leftButton.style('background-color', color(150, 150, 150, 255));
   leftButton.touchStarted(moveLeft);
   leftButton.touchEnded(stopMoveLeft);
+  leftButton.onselectstart = 'return false;';
   leftButton.position(cnvx - 98, cnvy);
   leftButton.size(100, 600);
 
