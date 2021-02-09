@@ -53,7 +53,7 @@ function setup() {
   frameRate(15);
 
   pacman = createSprite(275, 110, 1, 1);
-  pacman.debug = true;
+  //pacman.debug = true;
   pacman.addAnimation('pacman', pacmanDown);
   pacman.addAnimation('pacman1', pacmanUp);
   pacman.addAnimation('pacman2', pacmanLeft);
